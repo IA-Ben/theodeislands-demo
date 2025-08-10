@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "transcode": "cd resources/transcoder && npm start",
-    "upload": "cd resources/transcoder && gsutil -m cp -r out/* gs://ode-island/vid/"
+    "upload": "cd resources/transcoder && gsutil -m cp -r out/* gs://odeislands/vid/"
   },
   "dependencies": {
     "hls.js": "^1.6.7",
