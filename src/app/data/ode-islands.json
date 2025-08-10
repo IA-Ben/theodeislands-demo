@@ -1,0 +1,159 @@
+{
+  "chapter-1": [
+    {
+      "text": {
+        "title": "THE ODE ISLANDS",
+        "subtitle": "A Mixed Reality Voyage To Find Freedom"
+      },
+      "ctaStart": "Begin Journey",
+      "video": {
+        "url": "1-crawling",
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": {
+        "mix": "exclusion",
+        "title": "#37ffce"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "ONCE...",
+        "description": "...upon a time, on a distant island, there existed a perfect balance of energies. The island was home to two magical beings, the Orns, who embodied all happy thoughts, and the Nors, who carried the negative ones. For a long time they lived in harmony, each balancing each other, ensuring the island remained a place of peace"
+      },
+      "video": {
+        "url": "1-poem1",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      },
+      "theme": {
+        "shadow": true,
+        "overlay": "rgba(0, 0, 0, 0.4)",
+        "subtitle": "#FBBAE0"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "BUT...",
+        "description": "...one day, a great storm arose, fierce and unrelenting. Slowly, the Nors began to take over, turning the once joyful Orns into shadows of negativity. The island's balance tipped and hope began to fade Just when it seemed that all was lost a young girl washed ashore. She was fragile, yet radiant carrying an inner light of innocence and joy."
+      },
+      "video": {
+        "url": "1-poem2",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      },
+      "theme": {
+        "shadow": true,
+        "overlay": "rgba(0, 0, 0, 0.4)",
+        "subtitle": "#FBBAE0"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "THE...",
+        "description": "...few remaining Orns felt a spark of hope and miraculously the Nors around her began to transform back into Orns. Seeing the power of her happiness and beauty the Nors and Orns worked together using the girl's presence to rebuild the island."
+      },
+      "video": {
+        "url": "1-poem3",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      },
+      "theme": {
+        "shadow": true,
+        "overlay": "rgba(0, 0, 0, 0.4)",
+        "subtitle": "#FBBAE0"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "SLOWLY",
+        "description": "...balance was restored and the island returned to a place of unity and joy where both positive and negative thoughts could coexist in harmony once again."
+      },
+      "video": {
+        "url": "1-poem4",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      },
+      "theme": {
+        "shadow": true,
+        "overlay": "rgba(0, 0, 0, 0.6)",
+        "subtitle": "#FBBAE0"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "NEXT UP"
+      },
+      "cta": {
+        "title": "Continue to Chapter 2",
+        "url": "/chapter-2"
+      },
+      "theme": {
+        "background": "#FBBAE0",
+        "subtitle": "#000",
+        "cta": "#E9F3E6"
+      }
+    }
+  ],
+  "chapter-2": [
+    {
+      "text": {
+        "title": "THE ODE ISLAND",
+        "cta": "Start Chapter"
+      },
+      "image": {
+        "url": "1-womb.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": {
+        "mix": "difference",
+        "title": "#37ffce"
+      }
+    },
+    {
+      "text": {
+        "description": "I felt lucky compared to the other girls, confident, but the parts that I didn't like, I obsessed over : my hooded eyes, my breasts, my neck. Why could they not be perfect?"
+      }
+    },
+    {
+      "video": {
+        "url": "1-ornaghintro",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "1-ticket",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "video": {
+        "url": "1-ornaghtech",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "Chapter 3: Coming soon"
+      },
+      "theme": {
+        "background": "#37ffce",
+        "subtitle": "#000",
+        "invert": true
+      }
+    }
+  ]
+}

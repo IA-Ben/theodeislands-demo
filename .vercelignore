@@ -1,0 +1,2 @@
+# Ignore resources folder during Vercel builds
+resources/
