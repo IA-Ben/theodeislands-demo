@@ -39,3 +39,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Deployment force Wed Sep 24 12:18:48 BST 2025
