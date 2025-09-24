@@ -119,7 +119,7 @@ export interface UpdateCardRequest {
   theme?: Card['theme']
 }
 
-export interface CMSApiResponse<T = any> {
+export interface CMSApiResponse<T = unknown> {
   success: boolean
   data?: T
   error?: string
