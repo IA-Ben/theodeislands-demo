@@ -4,9 +4,13 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import ClientCard from "@/components/ClientCard";
 import Footer from "@/components/Footer";
+import data from "../data/ode-islands.json";
+
 type ChapterData = {
   [key: string]: CardData[];
 };
+
+const chapterData: ChapterData = data as ChapterData;
 
 export default function ChapterPage() {
   const params = useParams();
@@ -15,22 +19,7 @@ export default function ChapterPage() {
 
   const [interacted, setInteracted] = useState<boolean>(false);
   const [index, setIndex] = useState<number>(0);
-  const [chapterData, setChapterData] = useState<ChapterData>({});
   const containerRef = useRef<HTMLDivElement>(null);
-
-  // Load chapter data dynamically
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const response = await fetch('/api/data');
-        const data = await response.json();
-        setChapterData(data);
-      } catch (error) {
-        console.error('Failed to load chapter data:', error);
-      }
-    };
-    loadData();
-  }, []);
 
   // Get cards for current chapter
   const chapterNumber = chapterId.replace("chapter-", "");
