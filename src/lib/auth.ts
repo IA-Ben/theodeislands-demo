@@ -53,8 +53,8 @@ export async function authenticateUser(email: string, password: string): Promise
 // Create session
 export async function createSession(user: AuthUser): Promise<string> {
   const token = generateSessionToken()
-  const cookieStore = cookies()
-  
+  const cookieStore = await cookies()
+
   // Store session token (in production, store in database with expiration)
   cookieStore.set('cms-session', token, {
     httpOnly: true,
@@ -82,7 +82,7 @@ export async function getCurrentUser(request?: NextRequest): Promise<AuthUser | 
     if (request) {
       userCookie = request.cookies.get('cms-user')?.value
     } else {
-      const cookieStore = cookies()
+      const cookieStore = await cookies()
       userCookie = cookieStore.get('cms-user')?.value
     }
 
@@ -97,7 +97,7 @@ export async function getCurrentUser(request?: NextRequest): Promise<AuthUser | 
 
 // Logout user
 export async function logout(): Promise<void> {
-  const cookieStore = cookies()
+  const cookieStore = await cookies()
   cookieStore.delete('cms-session')
   cookieStore.delete('cms-user')
 }

@@ -5,9 +5,10 @@ import { UpdateChapterRequest, CMSApiResponse } from '@/@typings/cms'
 // GET /api/cms/chapters/[id] - Get specific chapter with cards
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const chapter = await getChapterById(params.id)
     if (!chapter) {
       return NextResponse.json({
@@ -36,11 +37,12 @@ export async function GET(
 // PUT /api/cms/chapters/[id] - Update chapter
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const body: UpdateChapterRequest = await request.json()
-    
+
     const updatedChapter = await updateChapter(params.id, body)
     if (!updatedChapter) {
       return NextResponse.json({
@@ -65,10 +67,11 @@ export async function PUT(
 
 // DELETE /api/cms/chapters/[id] - Delete chapter
 export async function DELETE(
-  request: NextRequest,
-  { params }: { params: { id: string } }
+  _request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const success = await deleteChapter(params.id)
     if (!success) {
       return NextResponse.json({

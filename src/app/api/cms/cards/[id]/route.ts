@@ -5,9 +5,10 @@ import { UpdateCardRequest, CMSApiResponse } from '@/@typings/cms'
 // GET /api/cms/cards/[id] - Get specific card
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const card = await getCardById(params.id)
     if (!card) {
       return NextResponse.json({
@@ -32,11 +33,12 @@ export async function GET(
 // PUT /api/cms/cards/[id] - Update card
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const body: UpdateCardRequest = await request.json()
-    
+
     const updatedCard = await updateCard(params.id, body)
     if (!updatedCard) {
       return NextResponse.json({
@@ -62,9 +64,10 @@ export async function PUT(
 // DELETE /api/cms/cards/[id] - Delete card
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ): Promise<NextResponse<CMSApiResponse>> {
   try {
+    const params = await context.params
     const success = await deleteCard(params.id)
     if (!success) {
       return NextResponse.json({
