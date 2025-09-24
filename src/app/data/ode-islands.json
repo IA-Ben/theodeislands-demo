@@ -3,6 +3,86 @@
     {
       "text": {
         "title": "THE ODE ISLANDS",
+        "subtitle": "A New Beginning"
+      },
+      "ctaStart": "Begin Journey",
+      "video": {
+        "url": "OdeNew1-1",
+        "width": 1080,
+        "height": 1920
+      },
+      "theme": {
+        "mix": "exclusion",
+        "title": "#37ffce"
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-2",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-3",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-4",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-5",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-6",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-7",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "NEXT UP"
+      },
+      "cta": {
+        "title": "Continue to Chapter 2",
+        "url": "/chapter-2"
+      },
+      "theme": {
+        "background": "#FBBAE0",
+        "subtitle": "#000",
+        "cta": "#E9F3E6"
+      }
+    }
+  ],
+  "chapter-2": [
+    {
+      "text": {
+        "title": "THE ODE ISLANDS",
         "subtitle": "A Mixed Reality Voyage To Find Freedom"
       },
       "ctaStart": "Begin Journey",
@@ -89,8 +169,8 @@
         "subtitle": "NEXT UP"
       },
       "cta": {
-        "title": "Continue to Chapter 2",
-        "url": "/chapter-2"
+        "title": "Continue to Chapter 3",
+        "url": "/chapter-3"
       },
       "theme": {
         "background": "#FBBAE0",
@@ -99,7 +179,7 @@
       }
     }
   ],
-  "chapter-2": [
+  "chapter-3": [
     {
       "text": {
         "title": "THE ODE ISLAND",
@@ -131,9 +211,10 @@
     },
     {
       "video": {
-        "url": "1-ticket",
-        "width": 1920,
-        "height": 1080
+        "url": "3-ticket",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
       }
     },
     {
@@ -147,12 +228,208 @@
     },
     {
       "text": {
-        "subtitle": "Chapter 3: Coming soon"
+        "subtitle": "NEXT UP"
+      },
+      "cta": {
+        "title": "Continue to Chapter 4",
+        "url": "/chapter-4"
+      },
+      "theme": {
+        "background": "#FBBAE0",
+        "subtitle": "#000",
+        "cta": "#E9F3E6"
+      }
+    }
+  ],
+  "chapter-4": [
+    {
+      "text": {
+        "title": "WELCOME TO THE ODE ISLANDS",
+        "cta": "Start Chapter"
+      },
+      "image": {
+        "url": "3-islands.jpg",
+        "width": 1080,
+        "height": 1920
+      },
+      "theme": {
+        "mix": "difference",
+        "title": "#37ffce"
+      }
+    },
+    {
+      "text": {
+        "description": "Who am I? What is this place? Where am I? How can it be so beautiful? Beautiful Beautiful ….Hippokiss"
+      }
+    },
+    {
+      "video": {
+        "url": "3-welcome",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-map",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-trailer",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-statue",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-running",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "Behind-the-Scenes of the Ode Islands"
       },
       "theme": {
         "background": "#37ffce",
         "subtitle": "#000",
         "invert": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-mocap",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "NEXT UP"
+      },
+      "cta": {
+        "title": "Continue to Chapter 5",
+        "url": "/chapter-5"
+      },
+      "theme": {
+        "background": "#FBBAE0",
+        "subtitle": "#000",
+        "cta": "#E9F3E6"
+      }
+    }
+  ],
+  "chapter-5": [
+    {
+      "text": {
+        "title": "DOMESTIC BLISS",
+        "cta": "Start Chapter"
+      },
+      "image": {
+        "url": "4-room.jpg",
+        "width": 1080,
+        "height": 1920
+      },
+      "theme": {
+        "mix": "difference",
+        "title": "#37ffce"
+      }
+    },
+    {
+      "text": {
+        "description": "How was your day, my darling mannequin man?"
+      }
+    },
+    {
+      "video": {
+        "url": "4-bliss",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "4-ads",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-trailer",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-statue",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-running",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "Behind-the-Scenes of the Ode Islands"
+      },
+      "theme": {
+        "background": "#37ffce",
+        "subtitle": "#000",
+        "invert": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-mocap",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "COMING SOON"
+      },
+      "theme": {
+        "background": "#FBBAE0",
+        "subtitle": "#000",
+        "cta": "#E9F3E6"
       }
     }
   ]
