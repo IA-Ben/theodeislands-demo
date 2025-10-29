@@ -45,9 +45,11 @@ interface OldCardData {
 export async function migrateExistingData(): Promise<void> {
   console.log('Starting data migration...')
 
-  const chapterData = data as { [key: string]: OldCardData[] }
-  
+  const chapterData = data as { [key: string]: OldCardData[] | string }
+
   for (const [chapterKey, cards] of Object.entries(chapterData)) {
+    // Skip non-chapter keys like _buildForce
+    if (!Array.isArray(cards)) continue
     // Extract chapter number from key like "chapter-1"
     const chapterNumber = parseInt(chapterKey.replace('chapter-', ''))
     
