@@ -9,8 +9,8 @@
       "ctaStart": "Begin Journey",
       "video": {
         "url": "ode_1-1",
-        "width": 1080,
-        "height": 1920,
+        "width": 1920,
+        "height": 1080,
         "audio": true
       },
       "theme": {
