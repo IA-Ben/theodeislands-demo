@@ -8,9 +8,10 @@
       },
       "ctaStart": "Begin Journey",
       "video": {
-        "url": "OdeNew1-1",
+        "url": "https://storage.googleapis.com/ode-islands-video-cdn/videos/ode_1-1",
         "width": 1080,
-        "height": 1920
+        "height": 1920,
+        "audio": true
       },
       "theme": {
         "mix": "exclusion",
