@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 import data from "../data/ode-islands.json";
 
 type ChapterData = {
-  [key: string]: CardData[];
+  [key: string]: CardData[] | string;
 };
 
-const chapterData: ChapterData = data as ChapterData;
+const chapterData = data as ChapterData;
 
 export default function ChapterPage() {
   const params = useParams();
@@ -23,7 +23,8 @@ export default function ChapterPage() {
 
   // Get cards for current chapter
   const chapterNumber = chapterId.replace("chapter-", "");
-  const cards: CardData[] = chapterData[`chapter-${chapterNumber}`] || [];
+  const chapterCards = chapterData[`chapter-${chapterNumber}`];
+  const cards: CardData[] = Array.isArray(chapterCards) ? chapterCards : [];
 
   // Redirect to chapter 1 if invalid chapter
   useEffect(() => {
