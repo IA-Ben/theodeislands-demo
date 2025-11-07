@@ -1,87 +1,5 @@
 {
-  "_buildForce": "2024-09-24-12:15",
   "chapter-1": [
-    {
-      "text": {
-        "title": "THE ODE ISLANDS",
-        "subtitle": "A New Beginning"
-      },
-      "ctaStart": "Begin Journey",
-      "video": {
-        "url": "ode_1-1",
-        "width": 1920,
-        "height": 1080,
-        "audio": true
-      },
-      "theme": {
-        "mix": "exclusion",
-        "title": "#37ffce"
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-2",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-3",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-4",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-5",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-6",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "video": {
-        "url": "OdeNew1-7",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "text": {
-        "subtitle": "NEXT UP"
-      },
-      "cta": {
-        "title": "Continue to Chapter 2",
-        "url": "/chapter-2"
-      },
-      "theme": {
-        "background": "#FBBAE0",
-        "subtitle": "#000",
-        "cta": "#E9F3E6"
-      }
-    }
-  ],
-  "chapter-2": [
     {
       "text": {
         "title": "THE ODE ISLANDS",
@@ -96,6 +14,40 @@
       "theme": {
         "mix": "exclusion",
         "title": "#37ffce"
+      }
+    },
+    {
+      "text": {
+        "subtitle": "A New Beginning"
+      },
+      "ctaStart": "Are you ready to start your journey?",
+      "video": {
+        "url": "OdeNew1-1",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      },
+      "theme": {
+        "mix": "exclusion",
+        "title": "#37ffce",
+        "ctaStart": "#37ffce"
+      }
+    },
+    {
+      "video": {
+        "url": "1-ornaghintro",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-2",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
       }
     },
     {
@@ -116,6 +68,14 @@
       }
     },
     {
+      "video": {
+        "url": "OdeNew1-3",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+     {
       "text": {
         "subtitle": "BUT...",
         "description": "...one day, a great storm arose, fierce and unrelenting. Slowly, the Nors began to take over, turning the once joyful Orns into shadows of negativity. The island's balance tipped and hope began to fade Just when it seemed that all was lost a young girl washed ashore. She was fragile, yet radiant carrying an inner light of innocence and joy."
@@ -133,6 +93,22 @@
       }
     },
     {
+      "video": {
+        "url": "OdeNew1-4",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-5",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
       "text": {
         "subtitle": "THE...",
         "description": "...few remaining Orns felt a spark of hope and miraculously the Nors around her began to transform back into Orns. Seeing the power of her happiness and beauty the Nors and Orns worked together using the girl's presence to rebuild the island."
@@ -147,6 +123,41 @@
         "shadow": true,
         "overlay": "rgba(0, 0, 0, 0.4)",
         "subtitle": "#FBBAE0"
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-6",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "video": {
+        "url": "OdeNew1-7",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
+      }
+    },
+    {
+      "text": {
+        "subtitle": "Behind-the-Scenes of the Ode Islands"
+      },
+      "theme": {
+        "background": "#37ffce",
+        "subtitle": "#000",
+        "invert": true
+      }
+    },
+    {
+      "video": {
+        "url": "3-mocap",
+        "type": "immersive",
+        "width": 1080,
+        "height": 1920,
+        "audio": true
       }
     },
     {
@@ -171,8 +182,8 @@
         "subtitle": "NEXT UP"
       },
       "cta": {
-        "title": "Continue to Chapter 3",
-        "url": "/chapter-3"
+        "title": "Continue to Chapter 2",
+        "url": "/chapter-2"
       },
       "theme": {
         "background": "#FBBAE0",
@@ -181,7 +192,7 @@
       }
     }
   ],
-  "chapter-3": [
+  "chapter-2": [
     {
       "text": {
         "title": "THE ODE ISLAND",
@@ -200,15 +211,6 @@
     {
       "text": {
         "description": "I felt lucky compared to the other girls, confident, but the parts that I didn't like, I obsessed over : my hooded eyes, my breasts, my neck. Why could they not be perfect?"
-      }
-    },
-    {
-      "video": {
-        "url": "1-ornaghintro",
-        "type": "immersive",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
       }
     },
     {
@@ -233,8 +235,8 @@
         "subtitle": "NEXT UP"
       },
       "cta": {
-        "title": "Continue to Chapter 4",
-        "url": "/chapter-4"
+        "title": "Continue to Chapter 3",
+        "url": "/chapter-3"
       },
       "theme": {
         "background": "#FBBAE0",
@@ -243,7 +245,7 @@
       }
     }
   ],
-  "chapter-4": [
+  "chapter-3": [
     {
       "text": {
         "title": "WELCOME TO THE ODE ISLANDS",
@@ -309,30 +311,11 @@
     },
     {
       "text": {
-        "subtitle": "Behind-the-Scenes of the Ode Islands"
-      },
-      "theme": {
-        "background": "#37ffce",
-        "subtitle": "#000",
-        "invert": true
-      }
-    },
-    {
-      "video": {
-        "url": "3-mocap",
-        "type": "immersive",
-        "width": 1080,
-        "height": 1920,
-        "audio": true
-      }
-    },
-    {
-      "text": {
         "subtitle": "NEXT UP"
       },
       "cta": {
-        "title": "Continue to Chapter 5",
-        "url": "/chapter-5"
+        "title": "Continue to Chapter 4",
+        "url": "/chapter-4"
       },
       "theme": {
         "background": "#FBBAE0",
@@ -341,7 +324,7 @@
       }
     }
   ],
-  "chapter-5": [
+  "chapter-4": [
     {
       "text": {
         "title": "DOMESTIC BLISS",
